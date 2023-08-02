@@ -643,6 +643,7 @@ export function Settings() {
                   value={accessStore.openaiUrl}
                   placeholder="https://api.openai.com/"
                   readOnly={true}
+                  style={{display: 'none'}}
                   onChange={(e) =>
                     accessStore.updateOpenAiUrl(e.currentTarget.value)
                   }
@@ -657,6 +658,7 @@ export function Settings() {
                   type="text"
                   placeholder={Locale.Settings.Token.Placeholder}
                   readOnly={true}
+                  style={{display: 'none'}}
                   onChange={(e) => {
                     accessStore.updateToken(e.currentTarget.value);
                   }}

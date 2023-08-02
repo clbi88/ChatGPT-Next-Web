@@ -646,7 +646,7 @@ export function Settings() {
                   onChange={(e) =>
                     accessStore.updateOpenAiUrl(e.currentTarget.value)
                   }
-                >
+                />
               </ListItem>
               <ListItem
                 title={Locale.Settings.Token.Title}

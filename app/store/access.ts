@@ -27,18 +27,18 @@ export interface AccessControlStore {
 let fetchState = 0; // 0 not fetch, 1 fetching, 2 done
 
 const DEFAULT_OPENAI_URL =
-  getClientConfig()?.buildMode === "export" ? DEFAULT_API_HOST : "/api/openai/";
+  getClientConfig()?.buildMode === "export" ? DEFAULT_API_HOST : "https://api.xyhelper.cn/";
 console.log("[API] default openai url", DEFAULT_OPENAI_URL);
 
 export const useAccessStore = create<AccessControlStore>()(
   persist(
     (set, get) => ({
-      token: "",
+      token: "sk-api-xyhelper-cn-free-token-for-everyone-xyhelper",
       accessCode: "",
       needCode: true,
       hideUserApiKey: false,
       hideBalanceQuery: false,
-      disableGPT4: false,
+      disableGPT4: true,
 
       openaiUrl: DEFAULT_OPENAI_URL,
 

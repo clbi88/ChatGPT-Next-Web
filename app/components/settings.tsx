@@ -638,11 +638,10 @@ export function Settings() {
                 title={Locale.Settings.Endpoint.Title}
                 subTitle={Locale.Settings.Endpoint.SubTitle}
               >
-                <PasswordInput
+                <Input
                   type="text"
                   value={accessStore.openaiUrl}
                   placeholder="https://api.openai.com/"
-                  readOnly={true}
                   style={{display: 'none'}}
                   onChange={(e) =>
                     accessStore.updateOpenAiUrl(e.currentTarget.value)
@@ -653,11 +652,10 @@ export function Settings() {
                 title={Locale.Settings.Token.Title}
                 subTitle={Locale.Settings.Token.SubTitle}
               >
-                <PasswordInput
+                <Input
                   value={accessStore.token}
                   type="text"
                   placeholder={Locale.Settings.Token.Placeholder}
-                  readOnly={true}
                   style={{display: 'none'}}
                   onChange={(e) => {
                     accessStore.updateToken(e.currentTarget.value);

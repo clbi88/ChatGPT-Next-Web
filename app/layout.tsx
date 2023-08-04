@@ -39,6 +39,15 @@ export default function RootLayout({
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "702c1be4b318413ca57a80a928869b50"}'
         />
+        <script dangerouslySetInnerHTML={{ __html: `
+          var _hmt = _hmt || [];
+          (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?9601e1529c9310876622dcf09e848e6c";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+          })();
+        `}}></script>
       </head>
       <body>{children}</body>
     </html>

@@ -34,7 +34,11 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "702c1be4b318413ca57a80a928869b50"}'></script><!-- End Cloudflare Web Analytics -->               
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "702c1be4b318413ca57a80a928869b50"}'
+        />
       </head>
       <body>{children}</body>
     </html>

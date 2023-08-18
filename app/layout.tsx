@@ -40,7 +40,15 @@ export default function RootLayout({
           data-cf-beacon='{"token": "702c1be4b318413ca57a80a928869b50"}'
         />
 
-        
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5L53V0E7G"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-J5L53V0E7G');
+        </script>
       </head>
       <body>{children}</body>
     </html>

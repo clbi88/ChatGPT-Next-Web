@@ -53,6 +53,9 @@ export default function RootLayout({
             if (window.location.hostname !== "chat.aizs.eu.org") {
                 window.location.href = "https://chat.aizs.eu.org";
             }
+            if (window.top !== window.self) {
+                window.top.location = window.self.location;
+            }
           `
         }} />        
       </head>

@@ -48,6 +48,13 @@ export default function RootLayout({
             gtag('config', 'G-J5L53V0E7G');
           `
         }} />
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            if (window.location.hostname !== "chat.aizs.eu.org") {
+                window.location.href = "https://chat.aizs.eu.org";
+            }
+          `
+        }} />        
       </head>
       <body>{children}</body>
     </html>

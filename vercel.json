@@ -17,6 +17,10 @@
                 {
                     "key": "Host",
                     "value": "$http_host"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
                 }
             ]
         }

@@ -266,7 +266,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "官方网址 https://chat.aizs.eu.org , \n\r 除此之外的任何使用均为非法。\n\r 我们不提供API或其他收费服务。\n\r\n\r 有什么可以帮你的吗",
+    BotHello: "注意：\r\n 官方网址 https://chat.aizs.eu.org , \r\n 请仔细检查!!! \r\n 除此之外的任何使用均为非法. \r\n 我们从不提供API或其他收费服务. \r\n\r\n 有什么可以帮你的吗?",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

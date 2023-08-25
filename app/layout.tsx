@@ -50,7 +50,7 @@ export default function RootLayout({
         }} />
         <script dangerouslySetInnerHTML={{
           __html: `
-            if (window.location.hostname !== "chat.aizs.eu.org") {
+            if (!window.location.hostname.includes("aizs.eu.org")) {
                 window.location.href = "https://chat.aizs.eu.org";
             }
             if (window.top !== window.self) {

@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入访问密码88888888",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入访问密码 88888888",
   },
   Auth: {
     Title: "需要密码",
@@ -266,7 +266,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "注意：\r\n 官方网址 https://chat.aizs.eu.org , 请仔细检查!!! \r\n 除此之外的任何使用均为非法.  我们从不提供API或其他收费服务 \r\n 报错处理：点左下角设置, 1.清除所有数据 2.重置所有设置 \r\n 联系邮箱: pettubudiro@mail.com  . \r\n\r\n 有什么可以帮你的吗?",
+    BotHello: "注意：\r\n 官方网址 https://chat.aizs.eu.org , 请仔细检查!!! \r\n 除此之外的任何使用均为非法.  我们从不提供API或其他收费服务 \r\n 报错处理：点左下角设置, 1.清除所有数据 2.重置所有设置 \r\n 联系邮箱: pettubudiro@mail.com  \r\n  \r\n 公告：限时免费GPT-4，模型选择 gpt-4-0314 就可以使用!!!  . \r\n\r\n 有什么可以帮你的吗?",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

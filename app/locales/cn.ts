@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入访问密码 88888888",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入访问密码 6688",
   },
   Auth: {
     Title: "需要密码",

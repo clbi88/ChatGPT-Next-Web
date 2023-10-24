@@ -39,6 +39,17 @@ export default function RootLayout({
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "702c1be4b318413ca57a80a928869b50"}'
         />
+        <script dangerouslySetInnerHTML={{
+          __html: `
+          var _hmt = _hmt || [];
+          (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?dd2a64a1bca838d3b3ffe1fa922dcc93";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+          })();
+          `
+        }} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5L53V0E7G"></script>
         <script dangerouslySetInnerHTML={{
           __html: `

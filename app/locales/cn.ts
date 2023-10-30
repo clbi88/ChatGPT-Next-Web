@@ -266,7 +266,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "本站唯一网址 https://chat-cf.aizs.eu.org ！\r\n 报错处理：点左下角设置, 1.清除所有数据 2.重置所有设置 \r\n 请所有人加telegram群，避免失联: https://t.me/chat_aizs  \r\n  \r\n 公告：本站提供 (GPT3.5级别) AI智能助手， 🚀✨高级版AI https://chatplus.aizs.eu.org (GPT-4级别) 暂时只开放给👏👏热心用户、捐赠用户👏👏有限使用. \r\n\r\n 有什么可以帮你的吗?",
+    BotHello: "报错处理：点左下角设置, 1.清除所有数据 2.重置所有设置 \r\n 请所有人加telegram群，避免失联: https://t.me/chat_aizs  \r\n  \r\n 公告：本站提供 (GPT3.5级别，不保证可用) AI智能助手， 🚀✨高级版AI https://chatplus.aizs.eu.org (GPT-4级别) 暂时只开放给👏👏热心用户、捐赠用户👏👏有限使用. \r\n\r\n 有什么可以帮你的吗?",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
